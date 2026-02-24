@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Navbar from './components/navbar';
 import Homepage from './pages/homepage';
 import Detailpage from './pages/detailpage';
 import Addnotepage from './pages/addnotepage';
@@ -10,6 +11,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app-container">
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/notes/new" element={<Addnotepage />} />

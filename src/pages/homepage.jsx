@@ -28,7 +28,6 @@ function Homepage() {
 
   return (
     <section className="homepage">
-      <h1>Catatan Aktif</h1>
 
       <Searchbar keyword={keyword} onKeywordChange={setKeyword} />
       <Notelist
