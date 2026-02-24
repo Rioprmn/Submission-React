@@ -41,6 +41,13 @@ let notes = [
     createdAt: '2022-04-14T04:27:34.572Z',
     archived: false,
   },
+  {
+    id: 'notes-7',
+    title: 'Menejemen Waktu',
+    body: 'Ngatur waktu itu penting biar tugas nggak numpuk. Mulai dari yang penting dulu, sisanya nyusul.',
+    createdAt: '2022-04-14T04:27:34.572Z',
+    archived: false,
+  },
 ];
 
 function getAllNotes() {
